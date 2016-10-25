@@ -1,0 +1,1 @@
+bash -c "LD_EXPORT=./th_alloc.so ./test"
