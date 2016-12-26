@@ -15,6 +15,12 @@ To run the program type:
 
 <code>LD_PRELOAD=./th_alloc.so ./your_command_or_binary</code>
 
+if you would like to run test.c follow these commands:
+
+<code>bash</code><br>
+<code>make</code><br>
+<code>LD_PRELOAD=./th_alloc.so ./test</code>
+
 Overrides default malloc() and free() functionality.
 
 Following the HOARD model, we preferred to make free blocks of memory easily accesible by placing them at the beginning of the free list. 
